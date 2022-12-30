@@ -47,8 +47,7 @@ int main()
 	ram.getnumber();
 
 	//Function Template
-	float a = 10;
-	max<float>(10, 10);
-	std::cout << a << std::endl;
+	//max<float>(10, 20);
+	std::cout << max<float>(10, 20) << std::endl;
 	return 0;
 }
