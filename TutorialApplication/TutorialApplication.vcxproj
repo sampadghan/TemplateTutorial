@@ -140,10 +140,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FunctionTemplate.cpp" />
     <ClCompile Include="Student.cpp" />
     <ClCompile Include="TutorialApplication.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FunctionTemplate.h" />
     <ClInclude Include="MyClass.h" />
     <ClInclude Include="MyTemplate.h" />
     <ClInclude Include="Student.h" />

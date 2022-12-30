@@ -5,9 +5,12 @@
 #include <stdio.h>
 #include <math.h>
 #include "Student.h"
+#include "FunctionTemplate.h"
 int main()
 {
+	//Class Template Varible
 	Tcalc<float> myobj;
+	//Class Template Pointer
 	Tcalc<float>* ptr = nullptr;
 	ptr = &myobj;
 	std::cout << myobj.add(10, 10) << std::endl;
@@ -42,5 +45,10 @@ int main()
 	Student ram = Student();
 	ram.getmark();
 	ram.getnumber();
+
+	//Function Template
+	float a = 10;
+	max<float>(10, 10);
+	std::cout << a << std::endl;
 	return 0;
 }
